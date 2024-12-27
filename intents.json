@@ -1,0 +1,109 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "about_hireyoo",
+      "patterns": [
+        "Tell me about Hire Yoo",
+        "What is Hire Yoo?",
+        "What does Hire Yoo do?",
+        "Explain Hire Yoo",
+        "Tell me more about Hire Yoo"
+      ],
+      "responses": [
+        "Hire Yoo is a cutting-edge virtual assistance platform tailored specifically for startups and entrepreneurs. We provide seamless access to a highly specialized workforce, including remote engineers, programmers, mentors, and even co-founders.",
+        "Hire Yoo is designed to empower startups and entrepreneurs with specialized virtual assistance, allowing them to hire remote engineers and programmers on flexible terms. We help businesses scale without long-term commitments."
+      ]
+    },
+    {
+      "tag": "our_services",
+      "patterns": [
+        "What services do you offer?",
+        "Tell me about your services",
+        "What do you provide?"
+      ],
+      "responses": [
+        "We offer a wide range of services, including remote engineers, programmers, creative designers, technical mentors, and even co-founders. We also have specialized training programs and an Offshore Development Centre (ODC).",
+        "Our platform offers access to a global talent network with a variety of professionals, including engineers, designers, technical mentors, and co-founders. You can also set up offshore development teams with our ODC services."
+      ]
+    },
+    {
+      "tag": "odc",
+      "patterns": [
+        "What is an Offshore Development Centre?",
+        "Tell me about ODC",
+        "How does your ODC work?"
+      ],
+      "responses": [
+        "Our Offshore Development Centre (ODC) allows businesses to set up dedicated remote teams in offshore locations, providing cost-effective solutions and scalability without the overhead of physical office spaces.",
+        "With Hire Yoo's ODC, businesses can access high-quality talent, technology, and infrastructure at reduced costs, while maintaining full control over projects."
+      ]
+    },
+    {
+      "tag": "skills_assessment",
+      "patterns": [
+        "Do you have a skill assessment program?",
+        "Tell me about your certification platform",
+        "How do you assess skills?"
+      ],
+      "responses": [
+        "Yes, we have a sophisticated skill assessment and certification platform that allows you to evaluate technical competencies, conduct mock interviews, and offer career advancement opportunities through innovative learning programs.",
+        "Our platform integrates skill testing and certifications to streamline candidate evaluations, ensuring that you only hire the most qualified professionals."
+      ]
+    },
+    {
+      "tag": "why_choose_hireyoo",
+      "patterns": [
+        "Why should I choose Hire Yoo?",
+        "What makes Hire Yoo different?",
+        "Why Hire Yoo?"
+      ],
+      "responses": [
+        "At Hire Yoo, we offer a global network of pre-screened professionals, flexible hiring models, expert training programs, and a supportive ecosystem for startups and entrepreneurs. We make hiring easy and efficient.",
+        "Our platform offers flexible hiring options, from hourly to fixed-cost models, helping startups scale quickly without long-term commitments. We also provide mentorship and career advancement programs to help you grow."
+      ]
+    },
+    {
+      "tag": "vision_mission",
+      "patterns": [
+        "What is your vision?",
+        "Tell me about your mission",
+        "What are your goals?"
+      ],
+      "responses": [
+        "Our vision is to become the premier virtual assistance platform for startups and entrepreneurs, creating a collaborative ecosystem where innovation meets expertise. We strive to empower businesses by providing easy access to global talent.",
+        "Our mission is to reshape the entrepreneurial landscape by offering specialized talent and resources, fostering a supportive environment for innovation, and driving global impact. We aim to help startups succeed by offering flexible hiring solutions and mentorship."
+      ]
+    }
+  ]
+}
